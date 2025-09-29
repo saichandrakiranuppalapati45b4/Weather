@@ -1,4 +1,5 @@
 // http://api.weatherapi.com/v1/current.json?key=11c9cb3344d7461f9c1122014251609&q=bhimavaram&aqi=no
+//94a553f4537c4ac98c772659252909
 
 
 const temperatureField = document.querySelector(".temp");
@@ -13,7 +14,7 @@ form.addEventListener('submit',searchforLocation)
 let target = 'bhimavaram';
 
 const fetchResults = async (targetLocation) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=11c9cb3344d7461f9c1122014251609&q=${targetLocation}&aqi=no`;
+    let url = `http://api.weatherapi.com/v1/current.json?key=94a553f4537c4ac98c772659252909&q=${targetLocation}&aqi=no`;
 
     const res = await fetch(url)
 
